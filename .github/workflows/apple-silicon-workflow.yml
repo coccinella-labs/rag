@@ -18,7 +18,7 @@ jobs:
     name: Install and validate on Apple Silicon
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
 
       - name: Set up Python 3.13
         uses: actions/setup-python@v6
