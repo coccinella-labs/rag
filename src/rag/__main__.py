@@ -77,7 +77,7 @@ Examples:
   rag --version                 Show version information
   rag --help                    Show this help message
 
-For more information, visit: https://github.com/harpertoken/rag
+For more information, visit: https://github.com/coccinella-labs/rag
         """,
     )
 
