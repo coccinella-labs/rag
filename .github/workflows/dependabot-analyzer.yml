@@ -14,7 +14,7 @@ on:
 
 jobs:
   analyze-dependabot-pr:
-    uses: libnudget/gon/.github/workflows/gon.yml@main
+    uses: coccinella-labs/gon/.github/workflows/gon.yml@main
     permissions:
       pull-requests: write
       contents: read
@@ -24,7 +24,7 @@ jobs:
     if: github.actor == 'dependabot[bot]'
 
   analyze-on-comment:
-    uses: libnudget/gon/.github/workflows/gon.yml@main
+    uses: coccinella-labs/gon/.github/workflows/gon.yml@main
     permissions:
       pull-requests: write
       contents: read
@@ -34,7 +34,7 @@ jobs:
     if: github.event_name == 'issue_comment' && contains(github.event.comment.body, '/analyze')
 
   analyze-on-dispatch:
-    uses: libnudget/gon/.github/workflows/gon.yml@main
+    uses: coccinella-labs/gon/.github/workflows/gon.yml@main
     permissions:
       pull-requests: write
       contents: read
