@@ -48,8 +48,8 @@ setup(
         ],
     },
     project_urls={
-        "Source": "https://github.com/bniladridas/rag",
-        "Bug Reports": "https://github.com/bniladridas/rag/issues",
+        "Source": "https://github.com/coccinella-labs/rag",
+        "Bug Reports": "https://github.com/coccinella-labs/rag/issues",
     },
     options={
         "py2app": {

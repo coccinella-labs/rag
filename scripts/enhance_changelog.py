@@ -23,7 +23,7 @@ def enhance_changelog():
     def add_issue_link(match):
         prefix = match.group(1)
         issue_num = match.group(2)
-        return f"{prefix}[`#{issue_num}`](https://github.com/bniladridas/rag/issues/{issue_num})"
+        return f"{prefix}[`#{issue_num}`](https://github.com/coccinella-labs/rag/issues/{issue_num})"
 
     # Match standalone #number - after whitespace or start, not in brackets
     pattern = r"(^|\s)#(\d+)(?!\))"
