@@ -122,7 +122,7 @@ jobs:
           twine check dist/*
 
       - name: Publish to PyPI
-        if: github.repository == 'bniladridas/rag'  # Only run for this repository
+        if: github.repository == 'coccinella-labs/rag'  # Only run for this repository
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           user: __token__
